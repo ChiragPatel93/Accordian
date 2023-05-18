@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* #Page Structure
+================================================== */
+body { background-color:#191A15; font-size:22px; color:#2c3246;  font-family: 'Montserrat', sans-serif; font-style: normal; font-weight:300; opacity:0; transition:all 0.3s; -moz-transition:all 0.3s; -webkit-transition:all 0.3s; -o-transition:all 0.3s;}
+.main{max-width: 1130px; width: 100%; margin:auto auto;letter-spacing: 0.5px; }
+a,button{ transition:all 0.3s; -moz-transition:all 0.3s; -webkit-transition:all 0.3s; -o-transition:all 0.3s;text-decoration: none; }
+img{ max-width:100%;}
+ul{ list-style: none; }
+.mktoGen.mktoImg {display:inline-block; line-height:0;}
+.midd-container { float:left; width:100%;}
+.section10 { float:left; width:100%;  text-align:center; padding:58px 0 53px;background:#ffffff;}
+.section10 h3,.section10 h3 div{ font-size: 54px;font-weight: 300;color: #8bc34a;text-align: left;line-height: 1.2 }
+.section10 .s10cover { float:left; width:100%; margin:39px 0 0;}
+.section10 .s10cover .acc-row{  float:left; width:100%; text-align:left; margin:0 0 35px; }
+.section10 .s10cover .acc-row h4{ padding-bottom:28px; }
+.section10 .s10cover .acc-row h4,.section10 .s10cover .acc-row h4 div{ font-family: 'Montserrat', sans-serif; font-size: 38px; line-height: 50px; color: #fff; text-align: center; font-weight: 100; color: #455a64;text-align: left; }
+.accordion-content { display: none; }
+.accordion-content a { color: #ffffff; }
+.accordion-title { background: url(../images/plus.png) 98% no-repeat #cfd8dc !important; background-size: 30px!important; list-style: outside none none; display: block; color: #231F20; font-size: 22px; line-height: 26px; font-family: 'Montserrat', sans-serif; font-size: 38px; font-weight: 300; padding: 10px 25px 10px 32px; cursor: pointer; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; text-align: left; color: #5b666d;font-size: 18px;line-height: 1.25;padding: 21px 55px 21px 25px;font-weight: 700;  }
+.accordion-content { text-align: left; }
+.accordion-title.active { background: url(../images/minus.png) 98% no-repeat #cfd8dc !important; background-size: 30px!important;}
+.accordion-content { background: #fff !important; list-style: outside none none; display: none; background-image: url("../images/plus.png"); color: #5b666d; font-size: 16px; line-height:1.29; font-family: 'Montserrat', sans-serif;font-weight: 300; padding: 20px 20px 30px 30px;font-weight: 700; }
+.accordion-title > span { float: right; position: relative; display: none !important; }
+.accordion-title.active > span { float: right; position: relative; background: #fff; }
+.accordion li { margin-bottom: 2px; }
+.mobile-display { display:inline-block;}
